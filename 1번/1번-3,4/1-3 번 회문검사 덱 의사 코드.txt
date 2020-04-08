@@ -1,0 +1,19 @@
+﻿회문검사 덱 활용
+
+Function_Check_palindrome(word)// Input: string Output:BOOL
+
+1.Create Deque "DQ" ← word
+
+2.IF word IS Empty OR Alone
+
+3. 	RETURN TRUE
+
+4.ELSE IF Delet_Front(DQ)==Delet_Rear(DQ)
+
+5. 	Create String "word2" ← DQ
+
+6. 	Function_Check_palindrome(word2)
+
+7.ELSE RETURN FALSE
+
+﻿

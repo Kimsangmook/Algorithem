@@ -1,0 +1,21 @@
+﻿회문검사 덱 활용
+
+Function_Check_palindrome(word)// Input: string Output:BOOL
+
+1. Create Stack "S" ← word
+
+2. Create Sting "S1" ← word
+
+3. IF word IS Empty OR Alone
+
+4.	RETURN TRUE
+
+5. ELSE IF S1[ 0 ]==Pop( S )
+
+6.	Create String "word2" ← S1[ 1 ] ~S1[ Len(word)-1]
+
+7. 	Function_Check_palindrome(word2)
+
+8. ELSE RETURN FALSE
+
+﻿
